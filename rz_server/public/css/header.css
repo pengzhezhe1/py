@@ -1,0 +1,44 @@
+.zindex>div:first-child{
+    top:0px;
+
+}
+.header>div:first-child>div:first-child{
+    z-index: 10;
+}
+.zindex{
+    z-index: 20;
+}
+#header a:hover,#content>ul>li>ul>li:hover{
+    background-color: #EEEEEE;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#content>ul>li>ul>li a{
+    line-height: 2;
+}
+.header{
+    margin: auto;
+}
+@media (min-width: 576px) {
+    #content > ul > li > a {
+        color: white !important;
+        font-weight: bold;
+    }
+}
+@media (min-width: 992px) {
+    #content>ul>li>a{
+        color:#145599 !important;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 100%;
+        padding: 0px;
+    }
+    .header > div:first-child > div:first-child {
+        margin-left: 200px;
+    }
+    #content > ul > li:first-child ~ li {
+        margin-left: 15px;
+    }
+}

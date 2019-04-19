@@ -1,0 +1,46 @@
+.my_login{
+    height:40px;
+    line-height: 40px;
+}
+.my_login,button{
+    background-color:#145599;
+}
+.my_login+div>div,button{
+    margin-top: 30px;
+}
+button{
+    padding: 5px 80px;
+    border: 0px;
+}
+.my_hide{
+    width:100%;
+    height:100%;
+    position: fixed;
+    z-index: 100;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.3);
+
+}
+.my_tr{
+    width:400px;
+    height:320px;
+    position: fixed;
+    z-index: 102;
+    top:100px;
+    left: 36%;
+}
+.my_tr>div img{
+    left:380px;
+    top:-10px;
+}
+.my_alert{
+    width:400px;
+    height:320px;
+    position: fixed;
+    /*z-index: 101;*/
+    top:100px;
+    left: 36%;
+    border-radius: 10px;
+    box-shadow: #5a6268 8px 8px 50px;
+}

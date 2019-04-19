@@ -1,0 +1,104 @@
+
+header span,header a{
+    font-size: 14px;
+    color: #666666;
+}
+header b{
+    color:#999;
+    margin-right: 4px;
+    font-weight: 400;
+}
+header>div:first-child>div:last-child>a{
+    margin-left: 10px;
+}
+header>div:last-child>div:last-child>input{
+    margin-top: 18px;
+}
+.container{
+    background-color: #F5F7FA;
+}
+header>div:last-child{
+    padding-top: 20px;
+}
+header>div:last-child>div:last-child>input:last-child{
+    border:0;
+    margin-left: -6px !important;
+    padding:2px 8px;
+}
+/* 左侧导航背景色 */
+.nav_left{
+    background-color: #292D32;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.nav_right img{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.lesson_item{
+    padding:14px 10px;
+}
+.lesson_item:hover,.lesson_item a:hover{
+    background-color:white;
+    color:black;  
+}
+.swipe{
+    position: relative;
+}
+.nav_left>ul{
+    line-height: 2;
+}
+.lesson_item a{
+    color:#999999;
+    font-weight: bold;
+}
+.h-103{
+    margin-top:-1.5px;
+    height: 102% !important;
+}
+.nav_left>ul>li:first-child~li{
+    border-top:.5px solid #1C252D;
+}
+/*课程隐藏域*/
+.threeitem{
+    width:600px;
+    height:185px;
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    top:0rem;
+    left:11.8rem;
+    padding-left: 20px;
+    display: none; 
+}
+.threeitem .threeles{
+    padding-top:10px;
+    width: 100%;
+}
+.threeitem>.threeles+.threeles{
+    border-top:1px solid rgb(212, 209, 209);
+}
+.threecls>a,.threesub>a{
+    font-weight: 400;
+    color:black;
+}
+.threesub>a{
+    font-size: 16px;
+    margin-right: 14px;
+}
+.lesson_item:hover .threeitem{
+    display: block;
+}
+/*课程列表*/
+.lessall>.banner img{
+    vertical-align: bottom;
+}
+.content img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+
+
+
